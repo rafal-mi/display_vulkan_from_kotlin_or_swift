@@ -40,7 +40,7 @@ class MainActivityComposed : ComponentActivity() {
 
 @Composable
 fun MainContent(modifier: Modifier = Modifier) {
-    Column(modifier = Modifier.fillMaxSize()) {
+    Column(modifier = modifier.fillMaxSize()) {
         Box(
             modifier = Modifier
                 .fillMaxWidth()

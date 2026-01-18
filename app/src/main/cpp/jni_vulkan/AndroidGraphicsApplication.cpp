@@ -193,7 +193,7 @@ void AndroidGraphicsApplication::sampleMain() {
     res = vkQueuePresentKHR(info.present_queue, &present);
     assert(res == VK_SUCCESS);
 
-    wait_seconds(20);
+    // wait_seconds(20);
     /* VULKAN_KEY_END */
     if (info.save_images) write_ppm(info, "15-draw_cube");
 
